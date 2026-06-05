@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Guajira - Tierra de sol, viento y cultura</title>
+    <!-- Aquí enlazamos el archivo CSS externo -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>La Guajira</h1>
+        <p>Departamento de Colombia, tierra de pueblos indígenas, paisajes desérticos, playas hermosas y una cultura llena de tradiciones.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#cultura">Cultura</a></li>
+            <li><a href="#turismo">Turismo</a></li>
+            <li><a href="#economia">Economía</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="ubicacion">
+            <h2>Ubicación y Geografía</h2>
+            <div class="contenido-flex">
+                <div class="texto">
+                    <p>La Guajira está ubicada en el extremo norte de Colombia, en la región Caribe. Limita al norte y al oeste con el mar Caribe, al este con Venezuela y al sur con los departamentos del Cesar y Magdalena.</p>
+                    <p>Es una zona mayormente desértica, con paisajes áridos, dunas de arena, formaciones rocosas y costas extensas. Su clima es cálido y seco, con temperaturas que suelen superar los 30°C durante todo el año.</p>
+                    <ul class="datos-lista">
+                        <li><strong>Capital:</strong> Riohacha</li>
+                        <li><strong>Superficie:</strong> ~20.848 km²</li>
+                        <li><strong>Población aproximada:</strong> 1,1 millones de habitantes</li>
+                    </ul>
+                </div>
+                <div class="imagen">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Mapa_de_La_Guajira.svg/800px-Mapa_de_La_Guajira.svg.png" alt="Mapa de La Guajira">
+                </div>
+            </div>
+        </section>
+
+        <section id="cultura">
+            <h2>Cultura y Pueblos Indígenas</h2>
+            <div class="contenido-flex">
+                <div class="imagen">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Wayuu_people.jpg/800px-Wayuu_people.jpg" alt="Pueblo Wayúu con su vestimenta tradicional">
+                </div>
+                <div class="texto">
+                    <p>La cultura guajira está marcada principalmente por la herencia de los pueblos indígenas, siendo el pueblo <strong>Wayúu</strong> el más numeroso y representativo. Conservan su lengua, costumbres, organización social y relación especial con la tierra y el mar.</p>
+                    <p>También habitan en la región los pueblos <strong>Kogui, Arhuacos, Wiwas y Kankuamos</strong>, quienes viven en la zona de la Sierra Nevada de Santa Marta, en el sur del departamento.</p>
+                    <p>Destacan sus artesanías como las mochilas Wayúu, tejidas con diseños únicos y gran valor cultural, su música, danzas y celebraciones tradicionales ligadas a la naturaleza y a sus creencias espirituales.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="turismo">
+            <h2>Lugares Turísticos Destacados</h2>
+            <p>La Guajira ofrece paisajes únicos que combinan desierto, mar y montaña. Estos son algunos de los sitios más visitados:</p>
+            <div class="lugares-grid">
+                <div class="lugar-card">
+                    <h3>Cabo de la Vela</h3>
+                    <p>Un lugar mágico con playas de aguas turquesas, dunas y el famoso "Pilón de Azúcar", una formación rocosa emblemática. Es sagrado para el pueblo Wayúu.</p>
+                </div>
+                <div class="lugar-card">
+                    <h3>Punta Gallinas</h3>
+                    <p>Es el punto más septentrional de Colombia y de toda Sudamérica. Paisajes vírgenes, faro histórico y una naturaleza impresionante.</p>
+                </div>
+                <div class="lugar-card">
+                    <h3>Sierra Nevada de Santa Marta</h3>
+                    <p>Reserva natural, hogar de comunidades indígenas y de los picos más altos del país. Ofrece biodiversidad, paisajes de montaña y cascadas.</p>
+                </div>
+                <div class="lugar-card">
+                    <h3>Riohacha</h3>
+                    <p>La capital, con su malecón frente al mar, la Catedral y mercados donde se compran artesanías típicas.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="economia">
+            <h2>Economía</h2>
+            <p>Las principales actividades económicas de La Guajira son:</p>
+            <ul class="datos-lista">
+                <li><strong>Minería:</strong> Extracción de carbón en Cerrejón, una de las minas a cielo abierto más grandes del mundo.</li>
+                <li><strong>Pesca y acuicultura:</strong> Importante fuente de sustento gracias a su amplia costa.</li>
+                <li><strong>Ganadería y agricultura:</strong> Principalmente en zonas más fértiles y cercanas a la Sierra Nevada.</li>
+                <li><strong>Turismo:</strong> Crecimiento constante gracias a sus paisajes y riqueza cultural.</li>
+                <li><strong>Artesanías:</strong> La producción de tejidos, mochilas y productos tradicionales es fundamental para la economía familiar de muchas comunidades.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Página informativa sobre La Guajira | Colombia - Tierra de encuentros y tradiciones</p>
+    </footer>
+
+</body>
+</html>
